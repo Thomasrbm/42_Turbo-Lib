@@ -6,7 +6,7 @@
 #    By: throbert <throbert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/22 05:59:42 by throbert          #+#    #+#              #
-#    Updated: 2025/03/14 18:18:06 by throbert         ###   ########.fr        #
+#    Updated: 2025/03/14 18:19:45 by throbert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ SRCS = $(wildcard *.c)
 
 OBJDIR = ../objects
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -g3
+CFLAGS = -Wall -Wextra -Werror -g3 -j
 OBJS = $(patsubst %.c, $(OBJDIR)/%.o, $(SRCS))
 
 RM = rm -f
