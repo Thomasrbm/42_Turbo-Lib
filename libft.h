@@ -93,7 +93,6 @@ int					ft_printf_xmin(unsigned int a);
 int					ft_printf_xmaj(unsigned int a);
 int					ft_printf(char *str, ...);
 
-char				*get_next_line(int fd);
 char				**free_tab(char **tab);
 int					tab_size(char **tab);
 char				**sort_str_tab(char **tab);
